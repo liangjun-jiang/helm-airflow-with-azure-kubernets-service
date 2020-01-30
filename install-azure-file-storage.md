@@ -7,7 +7,7 @@ run `azure-file-sc.yaml` to create *kubernetes storage class*
 run `azure-pvc-roles.yaml` to create *cluster role and binding*
 
 ## step 3
-run `azure-file-pvc.yaml` to create a *persistent volumne claim*
+run `azure-file-pvc.yaml` to create a *persistent volumn claim*
 
 ## step 4
 run 
