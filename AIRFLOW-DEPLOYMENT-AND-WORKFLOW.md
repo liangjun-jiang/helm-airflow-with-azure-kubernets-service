@@ -13,7 +13,7 @@ After years contribution from open source community, Apache Airflow has rich fea
 
 In the post, we are focusing on the deployment part of Apache Airflow.
 
-From my limited research, business units within YOUR-COMPANY has been deployed Apache Airflow differently. For instance, *jet.com* relies on HashiCorp's service. *Sam's Club* deployed with *OneOps*. As part of our plan, we mean to deploy with *Azure Kubernetes Services(AKS)* and *Azure Container Registries (ACR)* to work better with *Azure Blob Storage* and *Azure DataBricks*.
+From my limited research, business units within YOUR-COMPANY has been deployed Apache Airflow differently. For instance, *a.com* relies on HashiCorp's service. *b* deployed with *in house devOps*. As part of our plan, we mean to deploy with *Azure Kubernetes Services(AKS)* and *Azure Container Registries (ACR)* to work better with *Azure Blob Storage* and *Azure Data Bricks*.
 
 
 In general, there are few requirements for us to deploy an Apache Airflow within YOUR-COMPANY.
@@ -254,7 +254,7 @@ $ kubectl get pvc azurefile
 ```
 
 Then, open the `values.yaml` file, change line `372` to `storageClass: azurefile`. `azurefile` is what you defined `azure file class` name.
- 
+
 # Common Error
 
 ## *Error: could not find tiller*
