@@ -361,7 +361,7 @@ persistence:
   enabled: true
   ##
   ## Existing claim to use
-  existingClaim: azurefile
+  #existingClaim: azurefile
   ##
   ## Persistent Volume Storage Class
   ## If defined, storageClassName: <storageClass>
